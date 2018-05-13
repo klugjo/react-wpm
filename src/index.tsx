@@ -1,9 +1,9 @@
-import * as React from "react";
-import * as ReactDOM from "react-dom";
-
-import {App} from "./components/App";
+import * as React from 'react';
+import * as ReactDOM from 'react-dom';
+import App from './App';
+import './index.css';
 
 ReactDOM.render(
-    <App compiler="TypeScript" framework="React" />,
-    document.getElementById("example")
+  <App />,
+  document.getElementById('root') as HTMLElement
 );
